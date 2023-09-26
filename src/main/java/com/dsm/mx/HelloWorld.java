@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWorld {
     @GetMapping("hello")
     public String helloWorld(){
-        System.out.println("Entering hellow world method");
+        System.out.println("Entering hello world method");
         return "Hello World!";
     }
 }
