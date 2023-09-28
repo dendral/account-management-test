@@ -1,3 +1,2 @@
-docker pull dendral/sremx:0.2.2
-docker run -p 9090:8080 dendral/sremx:0.2.2
-#sshPublisher(publishers: [sshPublisherDesc(configName: 'remotedocker', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: 'deploy.sh', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/home/dockeradmin/jenkins', remoteDirectorySDF: false, removePrefix: '', sourceFiles: '*.sh')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
+docker pull dendral/sremx:0.0.0
+docker run -p 9090:8080 dendral/sremx:0.0.0
