@@ -11,4 +11,9 @@ public class HelloWorld {
         System.out.println("Entering hello world method");
         return "Hello World!";
     }
+    @GetMapping("bye")
+    public String bye(){
+        System.out.println("Entering bye world method");
+        return "Bye!";
+    }
 }
