@@ -14,6 +14,6 @@ public class HelloWorld {
     @GetMapping("bye")
     public String bye(){
         System.out.println("Entering bye world method");
-        return "Bye!";
+        return "Adios!";
     }
 }
